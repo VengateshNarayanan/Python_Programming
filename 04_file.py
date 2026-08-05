@@ -41,6 +41,11 @@ match choice:
             print(file.read())
 
 
+    case 3:
+        print("Exiting.....")
+
+    case _:
+        print("Invalid Input Please try again......")
 
     
 
