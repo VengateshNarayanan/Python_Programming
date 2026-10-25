@@ -1,26 +1,23 @@
-class calculate:
-    def add(self , a , b):
-        return a+b
 
-    def sub(self , a , b):
-        return a-b
+def calculate_total(salaries):
+    total = 0
 
-    def mul(self , a , b):
-        return a*b
+    for salary in salaries:
+        total += salary
 
-    def div(self , a , b):
-        try:
-            return a/b
-        except ZeroDivisionError:
-            return "Cannot divide by zero"
+    return total
 
 
-calc = calculate()
+def calculate_average(total, n):
+    return total / n
 
-print("Enter 1 for addition:")
-print("Enter 2 for subtraction")
-print("Enter 3 for multiplication")
-print("Enter 4 for division")
 
-choice = input("Enter your choice: ")
+def count_high_salary(salaries):
+    count = 0
+
+    for salary in salaries:
+        if salary > 30000:
+            count += 1
+
+    return count
 
