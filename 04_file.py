@@ -1,27 +1,27 @@
-# file = open("hello.txt" , "r")
-# print(file.readline())
-# print(file.readline())
+file = open("hello.txt" , "r")
+print(file.readline())
+print(file.readline())
 
-# print(file.readline())
-# print(file.readline())
-# print(file.readline())
+print(file.readline())
+print(file.readline())
+print(file.readline())
 
-# file.close()
+file.close()
 
-# file2 = open("data.txt" , "w")
-# file2.write(input("Enter the text to be inserted inside the file data.txt "))
-# #print(file2.write())
-# file2.close()
+file2 = open("data.txt" , "w")
+file2.write(input("Enter the text to be inserted inside the file data.txt "))
+#print(file2.write())
+file2.close()
 
-# file2 = open("data.txt" , "a")
-# file2.write("\nwelcome all")
-# file2.close()
+file2 = open("data.txt" , "a")
+file2.write("\nwelcome all")
+file2.close()
 
-# with open("data.txt" , "r") as file:
-#     print(file.read())
+with open("data.txt" , "r") as file:
+    print(file.read())
 
-# with open("data.txt") as file:
-#     print(file.read(5))
+with open("data.txt") as file:
+    print(file.read(5))
 
 print("Enter 1 for inputing your details into student details: ")
 print("Enter 2 for displaying the student already present in the record: ")
